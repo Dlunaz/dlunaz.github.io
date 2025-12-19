@@ -3,39 +3,123 @@
 <head>
   <meta charset="UTF-8" />
   <title>Portafolio de Dlunaz</title>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    header {
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.25rem;
+      color: #f9fafb;
+    }
+
+    header p {
+      color: #9ca3af;
+      margin: 0;
+    }
+
+    h2 {
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+      color: #38bdf8;
+    }
+
+    h3 {
+      margin-bottom: 0.25rem;
+      color: #e5e7eb;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .project {
+      background: #020617;
+      border-radius: 0.75rem;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #1f2937;
+    }
+
+    .contact p {
+      margin: 0.25rem 0;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Dlunaz – Estudiante de informática</h1>
-    <p>Proyectos, tecnologías y contacto.</p>
-  </header>
+  <main>
+    <header>
+      <h1>Dlunaz – Estudiante de informática</h1>
+      <p>Proyectos, tecnologías y contacto.</p>
+    </header>
 
-  <section id="proyectos">
-    <h2>Proyectos</h2>
+    <section id="proyectos">
+      <h2>Proyectos</h2>
 
-    <!-- Proyecto 1 -->
-    <article>
-      <h3>Sistema de gestión de información</h3>
-      <p>Aplicación en Java que permite crear, editar y borrar publicaciones y autores de una base de datos usando estructuras de datos como HashMap y listas enlazadas.</p>
-      <ul>
-        <li>Tecnologías: Java, ficheros, estructuras de datos</li>
-        <li><a href="ENLACE_REPO_PROYECTO_1">Ver código en GitHub</a></li>
-      </ul>
-    </article>
+      <!-- Proyecto 1 -->
+      <article class="project">
+        <h3>Sistema de gestión de información</h3>
+        <p>
+          Aplicación en Java que permite crear, editar y borrar publicaciones y autores
+          de una base de datos usando estructuras de datos como HashMap y listas enlazadas.
+        </p>
+        <ul>
+          <li>Tecnologías: Java, ficheros, estructuras de datos</li>
+          <li><a href="ENLACE_REPO_PROYECTO_1">Ver código en GitHub</a></li>
+        </ul>
+      </article>
 
-    <!-- Copia/pega más <article> para otros proyectos -->
-  </section>
+      <!-- Copia/pega más <article class="project"> para otros proyectos -->
+    </section>
 
-  <section id="sobre-mi">
-    <h2>Sobre mí</h2>
-    <p>Estudiante de Ingenieria Informática de Gestión y Sistemas de Información en la UPV: Escuela de Ingenieros de Bilbao.</p>
-  </section>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Estudiante de Ingeniería Informática de Gestión y Sistemas de Información
+        en la UPV: Escuela de Ingenieros de Bilbao.
+      </p>
+    </section>
 
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Email: dlunaci@icloud.com</p>
-    <p>Email: danicorrales.lana@gmail.com</p>
-    <p>LinkedIn: https://www.linkedin.com/in/daniela-corrales-ib%C3%A1%C3%B1ez-88121331b/</p>
-  </section>
+    <section id="contacto" class="contact">
+      <h2>Contacto</h2>
+      <p>Email: dlunaci@icloud.com</p>
+      <p>Email: danicorrales.lana@gmail.com</p>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/daniela-corrales-ib%C3%A1%C3%B1ez-88121331b/" target="_blank">
+          daniela-corrales-ibáñez
+        </a>
+      </p>
+    </section>
+  </main>
 </body>
 </html>
